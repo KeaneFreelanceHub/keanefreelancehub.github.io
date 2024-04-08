@@ -657,6 +657,10 @@ header
     padding-left: 12px;
     padding-right: 12px;
   }
+
+  .widget {
+    max-height: 659px;
+  }
   .header-area .main-nav:before {
     display: none;
   }
@@ -1576,6 +1580,10 @@ Banner Style
   color: #7a7a7a;
 }
 
+#box {
+  height: 1100px;
+}
+
 /* 
 
 /* 
@@ -1718,11 +1726,10 @@ responsive
     margin-left: 0px;
   }
 
-  .widget {
+  /* .widget {
     width: 80%;
     margin: 0 auto;
-    background-image: none;
-  }
+  } */
 
   .our-blog .right-list ul li {
     display: inline-block;
@@ -1763,5 +1770,23 @@ responsive
   }
   .phone-info h4 span i {
     margin-left: 0px;
+  }
+
+  #box {
+    height: 1100px;
+  }
+  .widget {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 400px) {
+  /* max-height: 800px; */
+  /* height: 100%; */
+  /* margin: 0 auto; */
+
+  #box {
+    height: 560px;
   }
 }
