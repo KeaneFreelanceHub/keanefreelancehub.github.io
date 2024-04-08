@@ -1607,6 +1607,17 @@ responsive
   .main-banner .left-content form input {
     width: 100% !important;
   }
+
+  .caption {
+    width: 100%;
+  }
+
+  .main-banner p {
+    padding-right: 0%;
+  }
+  .main-banner .line-dec {
+    margin: 30px auto 20px auto;
+  }
   #about {
     margin-top: 0px;
   }
@@ -1701,10 +1712,18 @@ responsive
 @media (max-width: 767px) {
   .about-us .left-image {
     bottom: -280px;
+    display: none;
   }
   .our-blog .right-list {
     margin-left: 0px;
   }
+
+  .widget {
+    width: 80%;
+    margin: 0 auto;
+    background-image: none;
+  }
+
   .our-blog .right-list ul li {
     display: inline-block;
     margin-top: 0px;
@@ -1720,6 +1739,24 @@ responsive
   .our-blog .right-list .right-image img {
     width: 100%;
   }
+  .caption {
+    width: 100%;
+  }
+  .main-banner {
+    padding: 185px 0px;
+  }
+  .main-banner h4 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .main-banner span {
+    margin: 0px 3px 0px 3px;
+  }
+  .main-banner .main-button a,
+  .main-banner .second-button a {
+    padding: 12px 20px;
+  }
+
   .phone-info h4 span {
     display: block;
     margin-top: 15px;
