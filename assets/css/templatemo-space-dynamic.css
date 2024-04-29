@@ -122,6 +122,25 @@ figcaption {
   height: 0;
 }
 
+.video-container {
+  position: relative;
+  margin-top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+video {
+  border-radius: 10px; /* Adjust the border radius as needed */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adjust the box shadow as needed */
+}
+
+.background-image {
+  background-image: url(../images/about-bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 140px 0px 150px 0px;
+}
+
 .clearfix {
   display: inline-block;
 }
@@ -1602,6 +1621,14 @@ responsive
 }
 
 @media (max-width: 992px) {
+  .video-container {
+    position: flex;
+    margin-top: 65%;
+
+    width: 95%;
+    transform: translate(-50%, -50%);
+  }
+
   .main-banner {
     padding-top: 196px;
   }
