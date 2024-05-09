@@ -132,8 +132,8 @@ video {
   border-radius: 10px; /* Adjust the border radius as needed */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adjust the box shadow as needed */
   border-color: #03a4ed;
-  border-width: 20px;
-  border-style: dashed;
+  border-width: 10px;
+  border-style: solid;
 }
 
 .background-image {
