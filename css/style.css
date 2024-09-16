@@ -1,4 +1,3 @@
-/********** Template CSS **********/
 :root {
   --primary: #4b8ef1;
   --light: #f1f8ff;
@@ -29,6 +28,40 @@
 /* a {
     color: !4b8ef1;
 } */
+
+/* Gallery */
+img {
+  width: 100%;
+}
+
+.masonry {
+  column-count: 4;
+  column-gap: 16px;
+}
+
+.masonry .mItem {
+  display: inline-block;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+@media (max-width: 1199px) {
+  .masonry {
+    column-count: 3;
+  }
+}
+
+@media (max-width: 991px) {
+  .masonry {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 767px) {
+  .masonry {
+    column-count: 1;
+  }
+}
 
 .fw-semi-bold {
   font-weight: 600 !important;
@@ -249,7 +282,7 @@
     url(../img/video.jpg);
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .video .btn-play {
